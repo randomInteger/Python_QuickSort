@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 Python simple implementation of quicksort with last position pivot
 
@@ -46,8 +47,6 @@ def quicksort(numbers, start, end):
 
 #Testing section
 myNumbers = [3,6,7,4,2,1,5,15,15,25,-1,-8,0]
-print "Quicksort of ",
-print myNumbers
+print("Quicksort of ", myNumbers)
 quicksort(myNumbers,0,len(myNumbers)-1)
-print "Sorted list is: ",
-print myNumbers
+print("Sorted list is: ", myNumbers)
